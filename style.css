@@ -1,13 +1,19 @@
 .grid{
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 500px;
-    justify-content: center;
-}
+    margin: auto;
+   }
 
 .grid-item{
-    width: 5px;
-    height: 5px;
+    width: 20px;
+    height: 20px;
     box-sizing: border-box;
     border: 1px solid black;
+}
+
+#grid-size-btn{
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;    
 }
